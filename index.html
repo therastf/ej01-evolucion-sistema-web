@@ -1,10 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Mi Proyecto Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evolución de un Sistema Web</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Bienvenido a mi Pagina Web</h1>
+    <main class="tarjeta">
+      <h1>Evolución de un Sistema Web</h1>
+      <p>Ingrese su nombre para recibir un saludo:</p>
+
+      <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+      <button onclick="saludar()">Saludar</button>
+
+      <p id="resultado"></p>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
